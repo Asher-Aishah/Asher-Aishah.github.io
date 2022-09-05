@@ -1,0 +1,130 @@
+
+.stars {
+    background-color: #ffffff;
+    width: 0.4cm;
+    height: 0.4cm;
+    border-radius: 50%;
+    position: absolute;
+    animation-iteration-count: infinite;
+}
+
+.star-1 {
+    margin-left: 3%;
+    margin-top: 9%;
+    animation-name: twinkle-2;
+    animation-duration: 700ms;
+}
+.star-2 {
+    margin-left: 25%;
+    margin-top: 10%;
+    animation-name: twinkle-1;
+    animation-duration: 500ms;
+
+}
+.star-3 {
+    margin-left: 45%;
+    margin-top: 13%;
+    animation-name: twinkle-3;
+    animation-duration: 2s;
+
+}
+.star-4 {
+    margin-left: 65%;
+    margin-top: 6%;
+    animation-name: twinkle-1;
+    animation-duration: 500ms;
+
+}
+.star-5 {
+    margin-left: 85%;
+    margin-top: 17%;
+    animation-name: twinkle-2;
+    animation-duration: 1s;
+
+}
+.star-6 {
+    margin-left: 37%;
+    margin-top: 1%;
+    animation-name: twinkle-2;
+    animation-duration: 1s;
+
+}
+.star-7 {
+    margin-left: 9%;
+    margin-top: 11%;
+    animation-name: twinkle-2;
+    animation-duration: 2s;
+}
+.star-8 {
+    margin-left: 3%;
+    margin-top: 2%;
+    animation-name: twinkle-1;
+    animation-duration: 500ms;
+
+}
+.star-9 {
+    margin-left: 97%;
+    margin-top: 17%;
+    animation-name: twinkle-3;
+    animation-duration: 4s;
+
+}
+.star-10 {
+    margin-left: 57%;
+    margin-top: 10%;
+    animation-name: twinkle-1;
+    animation-duration: 900ms;
+
+}
+.star-11 {
+    margin-left: 89%;
+    margin-top: 2%;
+    animation-name: twinkle-2;
+    animation-duration: 600ms;
+
+}
+.star-12 {
+    margin-left: 30%;
+    margin-top: 3%;
+    animation-name: twinkle-2;
+    animation-duration: 7s;
+
+}
+.background {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( black, #000099, #66c2ff, #ffcccc , #ffeee6);
+
+}
+@keyframes twinkle-1 {
+    20% {
+        transform: scale(0.5);
+        opacity: 0.2;
+    }
+}
+@keyframes twinkle-2 {
+    20% {
+        transform: scale(0.3);
+        opacity: 0.6;
+    }
+}
+@keyframes twinkle-3 {
+    20% {
+        transform: scale(0.3);
+        opacity: 0.1;
+    }
+}
+.moon {
+    width: 8rem;
+    height: 8rem;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-left: 85%;
+    margin-top: 1%;
+    box-shadow: 25px 10px 0 0 #fff79e;
+}
