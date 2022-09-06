@@ -10,7 +10,7 @@
 
 .star-1 {
     margin-left: 3%;
-    margin-top: 9%;
+    margin-top: 5em;
     animation-name: twinkle-2;
     animation-duration: 700ms;
 }
@@ -26,6 +26,7 @@
     margin-top: 13%;
     animation-name: twinkle-3;
     animation-duration: 2s;
+    background-color: navajowhite;
 
 }
 .star-4 {
@@ -47,6 +48,7 @@
     margin-top: 1%;
     animation-name: twinkle-2;
     animation-duration: 1s;
+    background-color: paleturquoise;
 
 }
 .star-7 {
@@ -54,19 +56,22 @@
     margin-top: 11%;
     animation-name: twinkle-2;
     animation-duration: 2s;
+    background-color: burlywood;
 }
 .star-8 {
     margin-left: 3%;
     margin-top: 2%;
     animation-name: twinkle-1;
     animation-duration: 500ms;
+    background-color: cadetblue;
 
 }
 .star-9 {
     margin-left: 97%;
-    margin-top: 17%;
+    margin-top: 12em;
     animation-name: twinkle-3;
     animation-duration: 4s;
+    background-color: lemonchiffon;
 
 }
 .star-10 {
@@ -74,6 +79,7 @@
     margin-top: 10%;
     animation-name: twinkle-1;
     animation-duration: 900ms;
+    background-color: rebeccapurple;
 
 }
 .star-11 {
@@ -81,6 +87,7 @@
     margin-top: 2%;
     animation-name: twinkle-2;
     animation-duration: 600ms;
+    background-color: rgb(131, 105, 39);
 
 }
 .star-12 {
@@ -88,6 +95,7 @@
     margin-top: 3%;
     animation-name: twinkle-2;
     animation-duration: 7s;
+    background-color: palegreen;
 
 }
 .background {
@@ -120,11 +128,17 @@
     }
 }
 .moon {
-    width: 8rem;
-    height: 8rem;
+    width: 8em;
+    height: 8em;
     background-color: transparent;
     border-radius: 50%;
-    margin-left: 85%;
-    margin-top: 1%;
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: 2%;
     box-shadow: 25px 10px 0 0 #fff79e;
+}
+@media screen and (max-width: 500px) {
+    .star-9 {
+     background-color:;
+    }
 }
