@@ -1,2 +1,2 @@
 # stary
-html and css of the night sky
+html and css of the night sky.
